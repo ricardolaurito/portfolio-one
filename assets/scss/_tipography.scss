@@ -1,0 +1,135 @@
+@import 'spacing.scss';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: 'JetBrains Mono', monospace;
+    color: $white-normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu__logo__branding {
+    font-size: 1.375rem;
+}
+
+.link {
+    padding: 8px 20px;
+    font-size: 20px;
+
+    transition: .5s ease;
+
+    position: relative;
+
+    &:active {
+        display: inline-block;
+        background: linear-gradient(225deg, $pink-element 0%, $blue-element 100%);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        font-weight: 900;
+    }
+
+    &:hover {
+        display: inline-block;
+        background: linear-gradient(225deg, $pink-element 0%, $blue-element 100%);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        font-weight: 900;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        width: 0%;
+        height: 0.125rem;
+
+        transform: translate(50% -50%);
+        transition: .5s ease;
+
+        background: linear-gradient(90deg, $pink-element 0%, $blue-element 100%);
+    }
+
+    &:hover {
+        opacity: .8;
+
+        &::after {
+            width: 90%;
+
+        }
+    }
+}
+
+h1 {
+    font-size: $gap-8;
+    line-height: 100%;
+}
+
+h2 {
+    font-size: $gap-6;
+    line-height: 110%;
+}
+
+h3 {
+    font-size: $gap-5;
+    line-height: 120%;
+}
+
+h4 {
+    font-size: $gap-4;
+    line-height: 130%;
+}
+
+h5 {
+    font-size: $gap-3;
+    line-height: 140%;
+
+}
+
+h6 {
+    font-size: $gap-2;
+    line-height: 150%;
+}
+
+
+.mask__branding {
+    display: inline-block;
+    background: linear-gradient(225deg, $pink-element 0%, $blue-element 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 900;
+}
+
+.mask {
+    display: inline-block;
+    background: linear-gradient(225deg, $blue-light 0%, $blue-dark 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text__center {
+    text-align: center;
+}
+
+.text__right {
+    text-align: right;
+}

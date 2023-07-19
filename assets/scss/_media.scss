@@ -1,0 +1,226 @@
+@media screen and (max-width: 1310px) {
+    .menu__right {
+        display: none;
+    }
+}
+
+// @media screen and (max-width: 1580px) {
+//      
+
+//     .container__item h1 {
+//         
+//         font-weight: 700;
+//         font-size: $gap-7;
+//     }
+
+//     .container__item h4 {
+//         font-size: $gap-3;
+//         margin-top: 40px;
+//         font-weight: 300;
+//         text-align: left;
+//         color: rgba($color: #F5F7F7, $alpha: .87);
+//     }
+
+//     .container__item:nth-child(1) {
+//         flex-grow: 2;
+
+//         margin: 40px 0px;
+//     }
+
+//     .container__item:nth-child(2) {
+//         flex-grow: 1;
+
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+
+//         margin: 40px 0px;
+
+//         img {
+//             max-width: 750px;
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 1580px) {
+//     .hero {
+//         display: flex;
+//         flex-direction: column-reverse;
+//         align-items: center;
+//         justify-content: center;
+//         height: auto;
+//     }
+
+//     .container__item:nth-child(1) {
+//         flex-grow: 1;
+
+//         margin: 0 auto;
+//         text-align: center;
+//     }
+
+//     
+// }
+
+@media screen and (max-width: 1580px) {
+    .container {
+        max-width: 1220px;       
+
+        display: flex;                
+        flex-flow: column wrap-reverse;
+        justify-content: center;       
+    }
+
+    .container__item h1 {        
+        font-weight: 700;
+        font-size: $gap-6;
+        margin: 0 auto;
+        
+    }
+
+    .container__item h4 { 
+        font-size: $gap-4;       
+        font-weight: 300;
+        margin: 0 auto;        
+        color: rgba($color: #F5F7F7, $alpha: .87);
+    }
+
+    .container__item:nth-child(1) {
+        display: flex;
+        flex-direction: column;              
+
+        margin: 0 auto;                
+    }
+
+    .container__item:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 40px 0px;
+        
+        img {
+            width: 450px;
+            
+        }
+    }
+
+    .relative {
+        position: relative;
+        height: 10vh;
+        align-items: center;
+    }
+
+    .bg__hero {
+        position: absolute;
+        top: 0px;
+        left: 0;
+
+        width: 100%;
+        height: 100vh;
+        //transform: rotate(-14deg);
+
+        overflow: hidden;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        z-index: -1;
+        opacity: .2;
+
+    }
+
+    /*.svg__hero {
+     
+     } */
+
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        max-width: 1220px;              
+
+        display: flex;                
+        flex-flow: column wrap-reverse;
+        justify-content: center;       
+        
+    }
+
+    .container__item h1 {        
+        font-weight: 700;
+        font-size: $gap-5;
+        margin: 0 auto;
+        
+    }
+
+    .container__item h4 { 
+        font-size: $gap-3;       
+        font-weight: 300;
+        margin: 0 auto;        
+        color: rgba($color: #F5F7F7, $alpha: .87);
+    }
+
+    .container__item:nth-child(1) {
+        display: flex;
+        flex-direction: column;              
+
+        margin: 0 auto;                
+    }
+
+    .container__item:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 40px 0px;
+        
+        img {
+            width: 350px;
+            
+        }
+    }
+
+    .relative {
+        position: relative;
+        height: 20vh;
+        align-items: center;
+        
+    }
+
+    .bg__hero {
+        position: absolute;
+        top: 0px;
+        left: 0;
+
+        width: 100%;
+        height: 100vh;
+        //transform: rotate(-14deg);
+
+        overflow: hidden;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        z-index: -1;
+        opacity: .2;
+
+    }
+
+    /*.svg__hero {
+     
+     } */
+         
+}
+
+@media screen and (max-width: 1310px) {
+    .svg__hero {
+        transform: scale(2) rotate(-35deg);
+    }
+}
+
+@media screen and (max-width:1310px) {
+    .svg__hero {
+        transform: scale(2) rotate(-35deg);
+    }
+}
