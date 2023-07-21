@@ -3,15 +3,13 @@
 
 // MENU 
 
-.center {
-   border: 1px solid red;
+.center {   
    max-width: 1800px;
    margin: 0 auto;
    padding: 0 2%;   
 }
 
-header {
-   border: 1px solid green;
+header {   
    position: fixed;
    left: 0;
    top: 0;
@@ -24,85 +22,30 @@ header {
    --webkit-backdrop-filter: blur(8px);
 }
 
-header li {
-   border: 1px solid green;
+header li {   
    display: inline-block;
    margin: 0 7px;
 }
 
-.container__menu {
-   border: 1px solid blue;
+.container__menu {   
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
 
-main {
-   max-width: 1800px; 
+main {   
+   max-width: 1800px;
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto; 
 }
 
 // CONTAINER HERO
 
-.flex__center {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-
-}
-
-.container {
-   max-width: 1220px;
-
-   margin: 0 auto;
-
-   padding: 48px 16px;
-
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
-}
-
-.container__item h1 {
-   text-align: justify;
-   font-weight: 700;
-}
-
-.container__item h4 {
-   margin-top: 40px;
-   font-weight: 300;
-   text-align: left;
-   color: rgba($color: #F5F7F7, $alpha: .87);
-}
-
-.container__item:nth-child(1) {
-   flex-grow: 2;
-
-   margin: 40px 0px;
-}
-
-.container__item:nth-child(2) {
-   flex-grow: 1;
-
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
-   margin: 40px 0px;
-
-   img {
-      max-width: 750px;
-   }
-}
-
-.relative {
-   position: relative;
-   max-width: 1800px;   
-   //height: 5vh;   
-}
-
 .bg__hero {
+   border: 5px solid red;
    position: absolute;
+   max-width: 1220px;   
    top: 0;
    left: 0;
 
@@ -115,23 +58,90 @@ main {
    display: flex;
    justify-content: center;
    align-items: center;
+   
 
    z-index: -1;
-   opacity: .2;
+   opacity: .2;  
+}
+
+.relative {
+   border: 3px solid green;
+   position: relative;
+   width: 1220px;   
+   
+   display: flex;
+   margin: 0 auto;   
+      
+}
+.container {
+   border: 1px solid yellow;
+   max-width: 1220px;
+   height: 90vh;
+
+   margin: 0 auto;
+
+   padding: 48px 16px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.container__item h1 {  
+   text-align: justify;
+   font-weight: 700;
+}
+
+.container__item h4 {   
+   margin-top: 40px;
+   font-weight: 300;
+   text-align: left;
+   color: rgba($color: #F5F7F7, $alpha: .87);
+}
+
+.flex__center {   
+   display: flex;
+   align-items: center;
+   justify-content: center;
 
 }
+
+.container__item:nth-child(1) {
+   border: 1px solid red;
+   flex-grow: 2;
+
+   margin: 40px 0px;
+}
+
+.container__item:nth-child(2) {
+   border: 1px solid blue;
+   flex-grow: 1;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   margin: 40px 0px;
+
+   img {
+      max-width: 500px;
+   }
+}
+
+
 
 // Botão Currículo
 
 .button {
    position: relative;
-   width: 220px;
-   height: 80px;
+   width: 180px;
+   height: 70px;
    background-color: $black-normal;
    display: flex;
    align-items: center;
    color: $white-normal;
-   font-size: 24px;
+   font-size: 1.25rem;
    font-family: 'JetBrains Mono', monospace;
    flex-direction: column;
    justify-content: center;
@@ -150,8 +160,8 @@ main {
    left: -4px;
    top: -1px;
    margin: auto;
-   width: 228px;
-   height: 88px;
+   width: 188px;
+   height: 78px;
    border-radius: 12px;
    background: linear-gradient(-45deg, $pink-element 0%, $blue-element 100%);
    z-index: -10;
