@@ -2295,7 +2295,7 @@ main {
 .container {
   max-width: 1220px;
   margin: 0 auto;
-  padding: 24px 16px;
+  padding: 48px 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2333,7 +2333,6 @@ main {
 .relative {
   position: relative;
   max-width: 1800px;
-  height: 5vh;
 }
 
 .bg__hero {
@@ -2341,7 +2340,7 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  height: 40vh;
+  height: 100vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -2469,7 +2468,7 @@ a:hover + .img__project {
 
 .form__container {
   width: 800px;
-  background: linear-gradient(#111111, #111111) padding-box, linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+  background: linear-gradient(#121316, #121316) padding-box, linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
   border: 2px solid transparent;
   padding: 32px 24px;
   font-size: 1rem;
