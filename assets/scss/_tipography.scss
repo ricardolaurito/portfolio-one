@@ -25,6 +25,8 @@ a {
     padding: 8px 20px;
     font-size: 20px;
 
+    display: inline-block;
+
     transition: .5s ease;
 
     position: relative;
@@ -126,10 +128,3 @@ h6 {
     -webkit-text-fill-color: transparent;
 }
 
-.text__center {
-    text-align: center;
-}
-
-.text__right {
-    text-align: right;
-}

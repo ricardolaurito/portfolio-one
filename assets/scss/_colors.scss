@@ -1,3 +1,4 @@
+$black-div: #121316;
 $black-dark: #08080E;
 $black-normal: #0a0a11;
 $black-light: #2F2F36;
@@ -12,3 +13,18 @@ $blue-light: #7DCAF2;
 
 $pink-element: #e81cff;
 $blue-element: #40c9ff;
+
+
+$gray-1: #777;
+
+.color__gray {
+    color: $gray-1;
+}
+
+.color__pink {
+    color: $pink-element;
+
+}
+.color__div {
+    background: $black-div;
+}
