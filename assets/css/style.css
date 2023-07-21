@@ -716,7 +716,7 @@ a {
 
 .link {
   padding: 8px 20px;
-  font-size: 20px;
+  font-size: 1.125rem;
   display: inline-block;
   transition: .5s ease;
   position: relative;
@@ -2254,12 +2254,14 @@ body {
 }
 
 .center {
+  border: 1px solid red;
   max-width: 1800px;
   margin: 0 auto;
   padding: 0 2%;
 }
 
 header {
+  border: 1px solid green;
   position: fixed;
   left: 0;
   top: 0;
@@ -2273,13 +2275,16 @@ header {
 }
 
 header li {
+  border: 1px solid green;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 7px;
 }
 
 .container__menu {
+  border: 1px solid blue;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 main {
