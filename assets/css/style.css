@@ -2286,7 +2286,6 @@ header li {
 }
 
 main {
-  border: 3px solid red;
   max-width: 1800px;
   display: flex;
   flex-direction: column;
@@ -2470,7 +2469,6 @@ a:hover + .img__project {
 }
 
 .get {
-  border: 3px solid blue;
   width: 100vw;
   max-width: 100vw;
   height: 100vh;
