@@ -2415,7 +2415,7 @@ main {
 
 .list {
   width: 100vw;
-  height: 70vh;
+  height: 40.625rem;
 }
 
 .list__item {
@@ -2456,18 +2456,20 @@ a:hover + .img__project {
   transform: translate(-50%, -50%) translate3d(-3000px, 0, 0) skewX(90deg);
 }
 
-.get {
+footer {
   max-width: 1200px;
+  display: flex;
+  flex: column wrap;
   margin: 0 auto;
   padding: 16px 24px;
 }
 
-.get h3 {
+footer h3 {
   font-weight: 500;
 }
 
 .form__container {
-  width: 800px;
+  width: 380px;
   background: linear-gradient(#121316, #121316) padding-box, linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
   border: 2px solid transparent;
   padding: 32px 24px;
@@ -2479,7 +2481,7 @@ a:hover + .img__project {
   gap: 20px;
   box-sizing: border-box;
   border-radius: 16px;
-  margin-top: 4.5rem;
+  margin-top: 1.5rem;
 }
 
 .form__container button:active {
@@ -2503,31 +2505,32 @@ a:hover + .img__project {
   margin-bottom: 5px;
   color: #717171;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .form__container .form__group input {
   width: 100%;
-  padding: 18px 22px;
+  height: 3rem;
+  padding: 8px 8px;
   border-radius: 8px;
   color: #EDEFF0;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: transparent;
   border: 1px solid #414141;
 }
 
 .form__container .form__group textarea {
   width: 100%;
-  padding: 18px 22px;
+  padding: 8px 8px;
   border-radius: 8px;
   resize: none;
   color: #EDEFF0;
-  height: 10.5rem;
+  height: 6rem;
   border: 1px solid #414141;
   background-color: transparent;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .form__container .form__group input::placeholder {
@@ -2556,7 +2559,7 @@ a:hover + .img__project {
   background: #313131;
   border: 1px solid #414141;
   padding: 12px 16px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   gap: 8px;
   margin-top: 8px;
   cursor: pointer;
