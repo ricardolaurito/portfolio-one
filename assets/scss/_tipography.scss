@@ -17,8 +17,10 @@ a {
     text-decoration: none;
 }
 
-.menu__logo__branding {
-    font-size: 1.375rem;
+.menu__logo__branding {    
+    padding: 7px 19px;
+    padding-left: 0;
+    font-size: 1.1875rem;
 }
 
 .link {
@@ -31,6 +33,10 @@ a {
 
     position: relative;
 
+    &:last-child {
+        padding-right: 0;
+    }
+    
     &:active {
         display: inline-block;
         background: linear-gradient(225deg, $pink-element 0%, $blue-element 100%);

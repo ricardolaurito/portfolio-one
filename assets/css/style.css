@@ -712,7 +712,9 @@ a {
 }
 
 .menu__logo__branding {
-  font-size: 1.375rem;
+  padding: 7px 19px;
+  padding-left: 0;
+  font-size: 1.1875rem;
 }
 
 .link {
@@ -721,6 +723,10 @@ a {
   display: inline-block;
   transition: .5s ease;
   position: relative;
+}
+
+.link:last-child {
+  padding-right: 0;
 }
 
 .link:active {
@@ -2276,7 +2282,12 @@ header {
 
 header li {
   display: inline-block;
-  margin: 0 7px;
+  margin: 0 5px;
+}
+
+header li:li:last-child {
+  margin-right: 0;
+  padding-right: 0;
 }
 
 .container__menu {
@@ -2425,9 +2436,10 @@ main {
 }
 
 .list {
+  border: 1px solid green;
   width: 100vw;
   max-width: 100vw;
-  height: 37.5rem;
+  height: 700px;
   margin: 0 calc(-50vw + 50%);
 }
 

@@ -3,13 +3,13 @@
 
 // MENU 
 
-.center {   
+.center {      
    max-width: 1800px;
    margin: 0 auto;
    padding: 0 2%;   
 }
 
-header {   
+header {      
    position: fixed;
    left: 0;
    top: 0;
@@ -22,15 +22,22 @@ header {
    --webkit-backdrop-filter: blur(8px);
 }
 
-header li {   
+header li {     
    display: inline-block;
-   margin: 0 7px;
+   margin: 0 5px;
+
+   &:li:last-child {    
+      margin-right: 0;
+      padding-right: 0;
+   }
 }
 
-.container__menu {   
+
+.container__menu {     
    display: flex;
    justify-content: space-between;
    align-items: center;
+   
 }
 
 main {  
@@ -196,10 +203,11 @@ main {
    width: 100%;
 }
 
-.list {     
+.list {  
+   border: 1px solid green;   
    width: 100vw;
    max-width: 100vw;   
-   height: 37.5rem;
+   height: 700px;
    margin: 0 calc(-50vw + 50%);
 }
 
