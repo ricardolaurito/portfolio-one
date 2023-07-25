@@ -260,7 +260,7 @@ footer {
 
 
 .form__container {   
-   width: 380px;
+   max-width: 380px;
    background: linear-gradient($black-div, $black-div) padding-box,
       linear-gradient(145deg, transparent 35%, $pink-element, $blue-element) border-box;
    border: 2px solid transparent;
@@ -270,6 +270,7 @@ footer {
    color: $white-dark;
    display: flex;
    flex-direction: column;
+   flex-grow: 1;
    gap: 20px;
    box-sizing: border-box;
    border-radius: 16px;
