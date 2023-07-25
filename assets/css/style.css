@@ -17,6 +17,11 @@
   width: 100vh;
 }
 
+.color__white__light {
+  border: 1px solid #e81cff;
+  background: #FAFCFC;
+}
+
 .s-0 {
   margin: 0;
   padding: 0;
@@ -1581,6 +1586,11 @@ body {
   width: 100vh;
 }
 
+.color__white__light {
+  border: 1px solid #e81cff;
+  background: #FAFCFC;
+}
+
 .s-0 {
   margin: 0;
   padding: 0;
@@ -2491,8 +2501,9 @@ footer h3 {
 }
 
 .coluna1__item {
-  border: 1px solid blue;
+  border: 7px solid blue;
   margin: 0 auto;
+  width: 35vh;
   flex-grow: 1;
   padding: 40px 16px;
 }
@@ -2508,7 +2519,7 @@ footer h3 {
 .form__container {
   border: 1px solid blue;
   width: 380px;
-  background: linear-gradient(#121316, #121316) padding-box, linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+  background: linear-gradient(#111019, #111019) padding-box, linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
   border: 2px solid transparent;
   padding: 32px 24px;
   font-size: 1rem;
@@ -2607,4 +2618,74 @@ footer h3 {
 .form__container .form__submit__btn:hover {
   background-color: #EDEFF0;
   border-color: #EDEFF0;
+}
+
+.coluna2__item {
+  border: 7px solid green;
+  width: 35vh;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 2;
+  padding: 40px 16px;
+  align-items: center;
+}
+
+.coluna2__item p {
+  border: 1px solid red;
+  text-align: justify;
+  opacity: .4;
+  font-size: 18px;
+  line-height: 2rem;
+  padding: 30px 16px;
+}
+
+.coluna3__item {
+  border: 7px solid blue;
+  width: 30vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 40px 16px;
+}
+
+.coluna3__item h3 {
+  text-align: justify;
+}
+
+.sociais {
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  height: 70vh;
+}
+
+.linkedin__brand,
+.github__brand {
+  width: 20px;
+  fill: #FAFCFC;
+  margin-right: 10px;
+}
+
+.sociais__links {
+  display: flex;
+  flex-direction: column;
+}
+
+.social__linkedin, .social__github {
+  border: 1px solid red;
+  padding: 8px 16px;
+  display: flex;
+  width: 100%;
+}
+
+.social__linkedin a, .social__github a {
+  opacity: .5;
+}
+
+.social__linkedin a:hover, .social__github a:hover {
+  opacity: .9;
 }
