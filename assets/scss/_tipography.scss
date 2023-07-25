@@ -23,7 +23,7 @@ a {
 
 .link {
     padding: 8px 20px;
-    font-size: 20px;
+    font-size: 1.125rem;
 
     display: inline-block;
 
@@ -79,33 +79,33 @@ a {
 }
 
 h1 {
-    font-size: $gap-8;
+    font-size: $gap-7;
     line-height: 100%;
 }
 
 h2 {
-    font-size: $gap-6;
+    font-size: $gap-5;
     line-height: 110%;
 }
 
 h3 {
-    font-size: $gap-5;
+    font-size: $gap-4;
     line-height: 120%;
 }
 
 h4 {
-    font-size: $gap-4;
+    font-size: $gap-3;
     line-height: 130%;
 }
 
 h5 {
-    font-size: $gap-3;
+    font-size: $gap-2;
     line-height: 140%;
 
 }
 
 h6 {
-    font-size: $gap-2;
+    font-size: $gap-1;
     line-height: 150%;
 }
 

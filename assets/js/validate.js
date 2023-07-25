@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // }, "-=0.8")
     .from(".container__item div", {
         duration: 1,
-        y: 300,
+        y: 100,
         opacity: 0,
         delay: 1.5,
         stagger: {each: 0.2},
@@ -49,14 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }, "-=0.8")
     .from(".bg__hero", {
         duration: 1,
-        y: 300,
+        y: 100,
         opacity: 0,
         stagger: {each: 0.2},
         ease: "power3.out",             
     }, "-=0.8")
     .from(".container__item img", {
         duration: 1,
-        y: 300,
+        y: 100,
         opacity: 0,
         stagger: {each: 0.2},
         ease: "power3.out",             
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     gsap.from("#portfolio div", {
         duration: 1,
-        y: 300,
+        y: 100,
         opacity: 0,
         stagger: {each: 0.2},  
         ease: "power3.out",
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     gsap.from("#contato div", {
         duration: 1.8,
-        y: 300,
+        y: 100,
         opacity: 0,
         stagger: {each: 0.2},  
         ease: "power3.out",
