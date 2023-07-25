@@ -24,18 +24,16 @@ a {
 }
 
 .link {
-    padding: 8px 20px;
+    padding: 8px 2px;
     font-size: 1.125rem;
 
     display: inline-block;
 
-    transition: .5s ease;
+    transition: .6s ease;
+    opacity: .4;
 
     position: relative;
 
-    &:last-child {
-        padding-right: 0;
-    }
     
     &:active {
         display: inline-block;
@@ -70,15 +68,16 @@ a {
 
         transform: translate(50% -50%);
         transition: .5s ease;
+        
 
         background: linear-gradient(90deg, $pink-element 0%, $blue-element 100%);
     }
 
     &:hover {
-        opacity: .8;
+        opacity: 1;
 
         &::after {
-            width: 90%;
+            width: 100%;
 
         }
     }

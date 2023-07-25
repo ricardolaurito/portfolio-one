@@ -3,7 +3,7 @@
 
 // MENU 
 
-.center {      
+.center {       
    max-width: 1800px;
    margin: 0 auto;
    padding: 0 2%;   
@@ -17,19 +17,15 @@ header {
    padding: 24px 0;
    text-align: center;
    z-index: 5;
-   background: rgba(10, 10, 17, .5);
+   background: $black-normal .5;
    backdrop-filter: blur(8px);
    --webkit-backdrop-filter: blur(8px);
 }
 
 header li {     
    display: inline-block;
-   margin: 0 5px;
-
-   &:li:last-child {    
-      margin-right: 0;
-      padding-right: 0;
-   }
+   margin: 0 15px;
+   
 }
 
 
@@ -41,7 +37,7 @@ header li {
 }
 
 main {  
-   border: 1px solid purple;    
+   border: 1px solid orange;    
    max-width: 1800px;
    display: flex;
    flex-direction: column;
@@ -51,15 +47,15 @@ main {
 
 // CONTAINER HERO
 
-.bg__hero {   
+.bg__hero {      
    position: absolute;
    max-width: 1220px;   
    top: 0;
    left: 0;
 
    width: 100%;
-   height: 100vh;
-   //transform: rotate(-14deg);
+   height: 78vh;
+   
 
    overflow: hidden;
 
@@ -72,15 +68,20 @@ main {
    opacity: .2;  
 }
 
-.relative {   
+.relative {     
    position: relative;
    width: 1220px;   
    
    display: flex;
-   margin: 0 auto;   
+   margin: 0 auto; 
+
+   top: -100px;
+   
+   transform: scale(1.3);   
       
 }
-.container {  
+.container { 
+   border: 1px solid $blue-element; 
    max-width: 1220px;
    height: 90vh;
 
@@ -106,7 +107,7 @@ main {
    color: rgba($color: #F5F7F7, $alpha: .87);
 }
 
-.flex__center {   
+.flex__center { 
    display: flex;
    align-items: center;
    justify-content: center;
