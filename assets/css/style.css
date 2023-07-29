@@ -814,7 +814,6 @@ h6 {
 }
 
 body {
-  width: 100%;
   background: #111019;
 }
 
@@ -2279,7 +2278,7 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  padding: 24px 0;
+  padding: 14px 0;
   text-align: center;
   z-index: 5;
   background: #111019 0.5;
@@ -2300,6 +2299,7 @@ header li {
 
 main {
   max-width: 1710px;
+  height: auto;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -2329,9 +2329,9 @@ main {
 
 .container {
   max-width: 1500px;
-  height: calc(100vh - 72px);
+  height: calc(100vh - 28px);
   margin: 0 auto;
-  padding: 48px 16px;
+  padding: 48px 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2439,11 +2439,18 @@ main {
 }
 
 .list {
-  width: 100vw;
+  width: 100%;
   max-width: 100vw;
-  height: 700px;
-  margin: 0 calc(-50vw + 50%);
-  margin-top: 4.5rem;
+  height: 850px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.container__portfolio {
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .list__item {
@@ -2451,9 +2458,8 @@ main {
   margin: 0 auto;
   padding: 40px 24px;
   padding-top: 4.5rem;
-  position: relative;
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
 }
 
@@ -2467,7 +2473,7 @@ a :hover {
 }
 
 a:hover + .img__project {
-  transform: translate(-30%, -50%) translate3d(0, 0, 0);
+  transform: translate(-40%, -50%) translate3d(0, 0, 0);
   opacity: 1;
 }
 
@@ -2485,31 +2491,28 @@ a:hover + .img__project {
 }
 
 footer {
-  width: 1450px;
+  width: 100%;
   max-width: 100vw;
-  height: 600px;
-  display: flex;
-  flex: column wrap;
+  height: 700px;
   margin: 0 auto;
-  align-content: start;
 }
 
-footer h3 {
+.container__footer {
+  max-width: 1710px;
+  height: 700px;
+  display: flex;
+  flex: column wrap;
+  align-items: center;
+}
+
+.container__footer h3 {
   font-weight: 500;
 }
 
 .coluna1__item {
-  margin: 0 auto;
-  width: 35vh;
+  height: 580px;
   flex-grow: 2;
-  padding: 40px 16px;
-}
-
-.get__item {
-  max-width: 1220px;
-  margin: 0 auto;
-  padding: 40px 16px;
-  padding-bottom: 3rem;
+  padding: 40px 24px;
 }
 
 .form__container {
@@ -2616,21 +2619,11 @@ footer h3 {
 }
 
 .coluna2__item {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  height: 580px;
   flex-grow: 1;
-  padding: 40px 16px;
+  padding: 40px 0;
   align-items: center;
-}
-
-.sociais {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  margin: 0;
-  width: 100%;
-  height: 70vh;
+  text-align: center;
 }
 
 .linkedin__brand,
